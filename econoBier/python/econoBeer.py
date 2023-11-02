@@ -1,4 +1,4 @@
-print('EcoBeer')
+print('EconoBeer')
 
 beers = []
 

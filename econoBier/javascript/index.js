@@ -1,9 +1,9 @@
 const beers = []
 
 const beerCalc = () => {
-  var nameBeer = prompt("Digite a marca da cerveja:")
+  var nameBeer = prompt("Digite o nome da cerveja:")
   var priceBeer = parseFloat(prompt("Digite o valor da cerveja:"))
-  var quantityBeer = parseInt(prompt("Digite a quantidade de cerveja em ML:"))
+  var quantityBeer = parseInt(prompt("Digite a quantidade de cerveja em ml:"))
   var priceMlBeer = (priceBeer / quantityBeer).toFixed(6)
 
   const beer = {
