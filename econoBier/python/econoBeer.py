@@ -3,7 +3,7 @@ print('EconoBeer')
 beers = []
 
 def beerCalc():
-    nameBeer = input("Digite a marca da cerveja: ")
+    nameBeer = input("Digite o nome da cerveja: ")
     priceBeer = float(input("Digite o valor da cerveja: "))
     quantityBeer = int(input("Digite a quantidade de cerveja em ML: "))
     priceMlBeer = format(priceBeer / quantityBeer, '.6f')
