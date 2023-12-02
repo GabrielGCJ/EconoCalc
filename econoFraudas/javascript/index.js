@@ -40,3 +40,11 @@ const encontrarFraudaMaisBarata = () => {
 }
 
 encontrarFraudaMaisBarata()
+
+var novaAdicão = parseInt(prompt("Gostaria de adicionar mais alguma frauda? Se sim quantas?"))
+
+for (var i = 0; i < novaAdicão; i++) {
+  calcularFraudas()
+}
+
+encontrarFraudaMaisBarata()
