@@ -40,3 +40,11 @@ const cheapestBeer = () => {
 }
 
 cheapestBeer()
+
+var novaAdição = parseInt(prompt("Gostaria de adicionar uma novq cerveja? Se sim quantas?"))
+
+for (var i = 0 ; i = novaAdição ; i++) (
+  beerCalc()
+  )
+  
+  cheapestBeer()
